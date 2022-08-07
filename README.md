@@ -20,6 +20,6 @@ Server locally on the following URL http://127.0.0.1:8000/
 
     mkdocs serve
     
-Publish website to gihub pages
+Publish website to gihub pages: https://myspotontheweb.github.io/mkdocs-demo/
 
-    mkdocs gh-pages
+    mkdocs gh-deploy
