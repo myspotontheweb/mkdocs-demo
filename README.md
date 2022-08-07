@@ -1,6 +1,6 @@
 # mkdocs-demo
 
-Demo generating github pages website using mkdocs
+Demo generating github pages website using [mkdocs](https://www.mkdocs.org/)
 
 # Setup
 
