@@ -20,6 +20,10 @@ Server locally on the following URL http://127.0.0.1:8000/
 
     mkdocs serve
     
-Publish website to gihub pages: https://myspotontheweb.github.io/mkdocs-demo/
+Publish website to github pages: https://myspotontheweb.github.io/mkdocs-demo/
 
     mkdocs gh-deploy
+    
+Notes:
+
+* mkdocs will automatically push to the branch "gh-pages" and configure the repo settings for github pages
