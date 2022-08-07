@@ -11,7 +11,7 @@ Configure a python virtual env
     
 Install software
 
-    pip install pip install mkdocs mkdocs-material
+    pip install mkdocs mkdocs-material
     
     
 # Usage
