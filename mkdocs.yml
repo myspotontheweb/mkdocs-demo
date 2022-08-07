@@ -4,3 +4,8 @@ nav:
     - Home: index.md
     - About: about.md
 theme: material
+
+plugins:
+  - diagrams
+  - search
+

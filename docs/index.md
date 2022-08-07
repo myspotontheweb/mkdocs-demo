@@ -1,6 +1,6 @@
-# Welcome to MkDocs
+# Demo page
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This page is built using [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
 
@@ -15,3 +15,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+## Diagrams
+
+![](event_processing.diagrams.png)
