@@ -1,5 +1,5 @@
-site_name: MkLorum
-site_url: https://example.com/
+site_name: MkDocs Demo
+site_url: https://github.com/myspotontheweb/mkdocs-demo
 nav:
     - Home: index.md
     - Blog: blog/index.md
@@ -9,4 +9,9 @@ theme: material
 plugins:
   - diagrams
   - search
-  - blog
+  - blog:
+      blog_toc: true
+      archive_toc: true
+      post_excerpt: required
+  - kroki:
+      DownloadImages: true
