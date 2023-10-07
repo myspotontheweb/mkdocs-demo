@@ -10,13 +10,12 @@ The mkdocs-diagrams plugin depends on graphviz
 
 Configure a python virtual env
 
-    python3 -m venv venv
-    source venv/bin/activate
+    python3 -m venv .venv
+    source .venv/bin/activate
     
 Install software
 
     pip install mkdocs mkdocs-material mkdocs-diagrams pymdown-extensions fontawesome_markdown
-    
     
 # Usage
 
