@@ -4,8 +4,7 @@ from diagrams.aws.database import Redshift
 from diagrams.aws.integration import SQS
 from diagrams.aws.storage import S3
 
-
-with Diagram("Event Processing", filename="event_processing.diagrams", show=False):
+with Diagram("Event Processing", filename="Diagrams.diagrams", show=False):
     source = EKS("k8s source")
 
     with Cluster("Event Flows"):
