@@ -10,4 +10,6 @@ categories:
 
 This is a test to render a cloud architecture document.
 
+<!-- more -->
+
 ![](Diagrams.diagrams.png)

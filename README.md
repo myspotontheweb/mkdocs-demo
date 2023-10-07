@@ -15,7 +15,7 @@ Configure a python virtual env
     
 Install software
 
-    pip install mkdocs mkdocs-material mkdocs-diagrams pymdown-extensions fontawesome_markdown
+    pip install mkdocs mkdocs-material mkdocs-diagrams mkdocs-kroki-plugin pymdown-extensions fontawesome_markdown
     
 # Usage
 
