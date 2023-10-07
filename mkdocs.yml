@@ -14,5 +14,4 @@ plugins:
       archive_toc: true
       post_excerpt: required
   - kroki:
-      DownloadImages: true
-      DownloadDir: assets/images
+      DownloadImages: false
