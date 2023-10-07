@@ -1,5 +1,5 @@
 site_name: MkDocs Demo
-site_url: https://github.com/myspotontheweb/mkdocs-demo
+site_url: https://myspotontheweb.github.io/mkdocs-demo
 nav:
     - Home: index.md
     - Blog: blog/index.md
@@ -14,4 +14,5 @@ plugins:
       archive_toc: true
       post_excerpt: required
   - kroki:
-      DownloadImages: false
+      DownloadImages: true
+      DownloadDir: assets/images
