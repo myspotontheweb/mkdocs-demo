@@ -30,3 +30,14 @@ Publish website to github pages: https://myspotontheweb.github.io/mkdocs-demo/
 Notes:
 
 * mkdocs will automatically push to the branch "gh-pages" and configure the repo settings for github pages
+
+# Maintenance
+
+There is a Github Actions workflow configured to update the website associated with this repository
+
+* [.github/workflows/ci.yml](https://github.com/myspotontheweb/mkdocs-demo/blob/main/.github/workflows/ci.yml)
+
+The library dependencies, used by this job can be periodically updated by running this command:
+
+    pip freeze > requirements.txt
+
