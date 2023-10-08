@@ -10,3 +10,6 @@ This page is under construction
 
 <!-- more -->
 
+!!! info
+
+    Tune in next week when we'll hear the frog say ...

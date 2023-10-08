@@ -1,11 +1,10 @@
 site_name: MkDocs Demo
 site_url: https://myspotontheweb.github.io/mkdocs-demo
 nav:
-    - Home: index.md
-    - Blog: blog/index.md
-    - About: about.md
+  - Home: index.md
+  - Blog: blog/index.md
+  - About: about.md
 theme: material
-
 plugins:
   - diagrams
   - search
@@ -16,3 +15,5 @@ plugins:
   - kroki:
       DownloadImages: true
       DownloadDir: assets/images
+markdown_extensions:
+  - admonition
