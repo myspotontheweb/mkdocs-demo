@@ -1,4 +1,4 @@
-# Demo page
+# Welcome
 
 This page is built using [mkdocs.org](https://www.mkdocs.org).
 
