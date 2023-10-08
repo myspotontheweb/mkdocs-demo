@@ -1,10 +1,25 @@
 site_name: MkDocs Demo
 site_url: https://myspotontheweb.github.io/mkdocs-demo
+repo_url: https://github.com/myspotontheweb/mkdocs-demo
+repo_name: myspotontheweb/mkdocs-demo
+edit_uri: edit/main/docs/
+
 nav:
   - Home: index.md
   - Blog: blog/index.md
   - About: about.md
-theme: material
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - toc.integrate
+    - content.action.edit
+
+markdown_extensions:
+  - toc
+  - admonition
+
 plugins:
   - diagrams
   - search
@@ -15,5 +30,3 @@ plugins:
   - kroki:
       DownloadImages: true
       DownloadDir: assets/images
-markdown_extensions:
-  - admonition
