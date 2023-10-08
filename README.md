@@ -4,10 +4,6 @@ Demo generating github pages website using [mkdocs](https://www.mkdocs.org/)
 
 # Setup
 
-The mkdocs-diagrams plugin depends on graphviz 
-
-    sudo apt-get install graphviz
-
 Configure a python virtual env
 
     python3 -m venv .venv
@@ -16,6 +12,7 @@ Configure a python virtual env
 Install software
 
     pip install mkdocs mkdocs-material mkdocs-diagrams mkdocs-kroki-plugin pymdown-extensions fontawesome_markdown
+    sudo apt-get install graphviz
     
 # Usage
 
