@@ -16,7 +16,7 @@ This demonstrates how it can be integrated with MkDocs
 
 <!-- more -->
 
-**blockdiag**
+## blockdiag
 
 ```kroki-blockdiag no-transparency=false
 blockdiag {
@@ -29,7 +29,7 @@ blockdiag {
 }
 ```
 
-**Structurizr**
+## Structurizr
 
 ```kroki-Structurizr
  workspace {
@@ -55,5 +55,16 @@ blockdiag {
         } 
         theme default 
     } 
+}
+```
+
+## seqdiag
+
+```kroki-seqdiag
+seqdiag {
+  browser  -> webserver [label = "GET /seqdiag/svg/base64"];
+  webserver  -> processor [label = "Convert text to image"];
+  webserver <-- processor;
+  browser <-- webserver;
 }
 ```
